@@ -43,10 +43,8 @@ const validateInputs = () => {
     
     }else if (usernameValue.length < 3){
         setError(username, 'Username must be between 3 and 25 characters');
-        document.getElementById("alert").style.visibility = display;
     }else if (usernameValue.length > 25){
         setError(username, 'Username must be between 3 and 25 characters');
-        document.getElementById("alert").style.visibility = display;
     }else{
         setSuccess(username);
     }
