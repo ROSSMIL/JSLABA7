@@ -85,12 +85,6 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px #e3accc, 0 0 25px #e3accc, 0 0 50px #e3accc, 0 0 100px #e3accc;
 }
-ion-icon {
-    position: absolute;
-    visibility: hidden;
-    left: 300px;
-    top: 10px;
-}
 .login-box .user-box.success input{
     border-bottom: 2px solid rgb(42, 131, 42);
 }
